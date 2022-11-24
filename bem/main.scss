@@ -14,6 +14,8 @@
 }
 
 .produto {
+    margin: 56px auto;
+
     &__imagem {
         width: 100%;
     }
@@ -27,9 +29,9 @@
         color: gray;
     }
 
-        &__descricao--destaque {
-            border: 2px solid gold;
-            padding: 8px;
-            background-color: #ffff42;
-        }
+    &__produto--destaque {
+        border: 2px solid gold;
+        padding: 8px;
+        background-color: #ffff42;
+    }
 }
